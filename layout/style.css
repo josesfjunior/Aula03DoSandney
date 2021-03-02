@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+
+body {
+  background-color: rgba(245, 245, 245, 0.61);
+  padding: 15px;
+}
+
+.titulo {
+  display: flex;
+  background-color: rgb(117, 17, 156);
+  overflow: hidden;
+  height: 100%;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  text-align: center;
+  justify-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.titulo h1 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.titulo h1 {
+  padding: 5px;
+  display: flex;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: bold;
+  text-decoration: none;
+  text-align: center;
+  border: rgba(0, 0, 0, 0.616) 5px solid;
+  border-radius: 20px;
+  max-width: 680px;
+  transition: all 0.5s ease;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.notum {
+  background-color: rgba(133, 130, 130, 0.267);
+}
+
+.notum h2 {
+  display: block;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  color: rgba(224, 104, 104, 0.753);
+}
+
+.notum img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.notum p {
+  font-family: Benne;
+  font-size: 19px;
+}
+
+.notdois {
+  background-color: rgba(133, 130, 130, 0.267);
+}
+
+.notdois h2 {
+  display: block;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  color: rgba(224, 104, 104, 0.753);
+}
+
+.notdois img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.notdois p {
+  font-family: Benne;
+  font-size: 19px;
+}
+
+.notdois p a {
+  text-decoration: none;
+}
+
+.nottres {
+  background-color: rgba(133, 130, 130, 0.267);
+}
+
+.nottres h2 {
+  display: block;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  color: rgba(224, 104, 104, 0.753);
+}
+
+.nottres img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.nottres p {
+  font-family: Benne;
+  font-size: 19px;
+}
+
+.nottres p a {
+  text-decoration: none;
+}
+
+.nottres h3 {
+  font-family: Poppins;
+  font-size: 30px;
+}
+
+.nottres ol {
+  font-family: Benne;
+  font-size: 25px;
+}
+
+.titulo h1:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+@media (min-width: 768px) {
+  .titulo {
+    padding-right: 0px;
+  }
+  .notum,
+  .notdois,
+  .nottres {
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titulo {
+    padding: 64px;
+  }
+  .notum,
+  .notdois,
+  .nottres {
+    padding: 64px;
+  }
+}
+@media (min-width: 768px) {
+  .titulo {
+    width: 100%;
+    order: unset;
+  }
+
+  .notum,
+  .notdois,
+  .nottres {
+    width: 100%;
+    order: unset;
+  }
+}
+
+@media only screen and (max-device-width: 900px) {
+  .root {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-device-height: 500px) {
+  .root {
+    height: 300px;
+  }
+}
